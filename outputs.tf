@@ -1,4 +1,5 @@
 output "bucket_id" {
+  description = "Identificador unico do bucket Amazon S3."
   value = aws_s3_bucket.bucket.id
 }
 
